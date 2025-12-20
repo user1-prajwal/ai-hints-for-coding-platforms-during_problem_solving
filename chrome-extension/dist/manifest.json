@@ -1,0 +1,63 @@
+{
+  "name": "coding-practice",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "128": "login1.png"
+    }
+  },
+  "icons": {
+    "128": "login1.png"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "host_permissions": [
+    "https://api.openai.com/*",
+    "https://generativelanguage.googleapis.com/*",
+    "https://api.anthropic.com/*",
+    "http://localhost:11434/*",
+    "http://127.0.0.1:5000/*",
+    "http://localhost:5000/*",
+    "https://leetcode.com/*",
+    "https://www.hackerrank.com/*",
+    "https://www.codechef.com/practice/*",
+    "https://www.geeksforgeeks.org/problems/*"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "assets/content.js-loader-ODq6iAC_.js"
+      ],
+      "matches": [
+        "https://leetcode.com/problems/*",
+        "https://www.hackerrank.com/challenges/*",
+        "https://www.codechef.com/practice/*",
+        "https://www.geeksforgeeks.org/problems/*"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "https://leetcode.com/*",
+        "https://www.codechef.com/*",
+        "https://www.geeksforgeeks.org/*",
+        "https://www.hackerrank.com/*"
+      ],
+      "resources": [
+        "assets/client-gqzlLjSY.js",
+        "assets/content.js-MIkftWXh.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ]
+}

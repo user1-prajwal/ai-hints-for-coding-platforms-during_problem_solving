@@ -22,6 +22,7 @@ It works across all major coding platforms, acting as a learning companion that 
 ✅ CodeChef
 
 ✅ GeeksforGeeks
+
 The extension uses DOM reading, so it adapts to different platforms automatically.
 
 &nbsp;

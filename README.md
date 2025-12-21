@@ -53,6 +53,7 @@ The extension uses DOM reading, so it adapts to different platforms automaticall
 
 
 &nbsp;
+![image alt](https://github.com/user1-prajwal/ai-hints-for-coding-platforms-during_problem_solving/blob/e24deecb5489532075625f6937fffb14d959f0bd/chrome-extension/working%20image.jpeg)
 &nbsp;
 
 >## ***🔐 API Key Setup***

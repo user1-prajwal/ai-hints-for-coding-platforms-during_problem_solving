@@ -14,9 +14,8 @@ OLLAMA_URL = "http://127.0.0.1:11434"
 OLLAMA_CMD = ["ollama", "serve"]
 
 
-# -----------------------------------------------------
 # Check if Ollama is running
-# -----------------------------------------------------
+
 def is_ollama_running():
     try:
         r = requests.get(OLLAMA_URL, timeout=2)
@@ -29,9 +28,8 @@ def is_ollama_running():
         return False
 
 
-# -----------------------------------------------------
 # Start ollama if not running
-# -----------------------------------------------------
+
 def start_ollama():
     if is_ollama_running():
         return True
@@ -50,9 +48,8 @@ def start_ollama():
     return False
 
 
-# -----------------------------------------------------
 # /ask endpoint — clean & fixed
-# -----------------------------------------------------
+
 @app.route("/ask", methods=["POST"])
 def ask():
     payload = request.get_json(force=True)

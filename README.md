@@ -1,68 +1,78 @@
-# **CODING PRACTICE-CHROME EXTENSION**
+# CodeNudge 🧠
+### AI-Powered Hints for Competitive Coding Practice
 
-### ai-hints-for-coding-platforms-during_problem_solving
+CodeNudge is a Chrome extension that helps you practice coding *ethically* — 
+by giving you smart, step-by-step hints instead of direct answers. It works 
+as a learning companion across all major coding platforms, guiding your 
+thinking without breaking your problem-solving flow.
 
-&nbsp;
+---
 
->## ***📌 Overview***
+## 🌐 Supported Platforms
+- ✅ LeetCode
+- ✅ HackerRank
+- ✅ CodeChef
+- ✅ GeeksforGeeks
 
-Chrome extension that helps you practice coding ethically by providing smart hints instead of direct solutions.
+> Uses DOM reading to adapt to each platform automatically — no extra setup needed.
 
-It works across all major coding platforms, acting as a learning companion that guides your thinking without breaking your problem-solving flow.
+---
 
-&nbsp;
-&nbsp;
+## ✨ Features
 
->## ***🌐 Supported Platforms***
+- 🧠 **Step-by-step conceptual hints** — no full solutions, just the right nudge
+- 🐞 **Debug assistance** — helps identify logic errors and TLE causes
+- 🔍 **Context-aware** — reads the problem description and your editor code
+- 🔄 **Multi-platform** — works across all supported sites seamlessly
+- 🤖 **Multiple AI backends:**
+  - OpenAI
+  - Google Gemini
+  - Ollama (offline / local models)
+- 🔐 **Secure** — API keys stored locally, never sent anywhere else
+- 🧭 **Non-intrusive** — stays on the same tab, no switching required
 
-✅ LeetCode
+---
 
-✅ HackerRank
+## 🎯 Philosophy
 
-✅ CodeChef
+> *"The goal isn't to solve the problem — it's to become someone who can."*
 
-✅ GeeksforGeeks
+CodeNudge is built for learners who want to grow, not just get AC. Every hint 
+is designed to prompt thinking, not replace it.
 
-The extension uses DOM reading, so it adapts to different platforms automatically.
+---
 
-&nbsp;
-&nbsp;
+## 🚀 Quick Install (No Build Needed)
 
->## ***✨ Features***
+Just want to try it out?
 
-🧠 Step-by-step conceptual hints (no full answers)
+1. Download the `dist/` folder from this repository
+2. Open Chrome and go to `chrome://extensions/`
+3. Enable **Developer Mode** (toggle in the top right)
+4. Click **"Load unpacked"** and select the `dist/` folder
+5. The extension is now active — visit any supported platform and start coding!
 
-🐞 Helps identify logic errors and TLE causes
+---
 
-🔄 Works across multiple coding websites
+## 🔑 Setup
 
-🔍 Reads problem description & code editor content
+1. Click the CodeNudge icon in your Chrome toolbar
+2. Choose your preferred AI model (OpenAI / Gemini / Ollama)
+3. Enter your API key — it's saved locally and never leaves your browser
+4. Open any supported coding problem and click **"Get Hint"**
 
-🤖 Supports multiple AI models:
+---
 
-  OpenAI
-
-  Gemini
-
-  Ollama (offline / local models)
-
-🔐 Secure local API key storage
-
-🧭 Stays on the same page — no tab switching
-
-🎯 Designed for learning-first coding practice
 
 
 &nbsp;
 ![image alt](https://github.com/user1-prajwal/ai-hints-for-coding-platforms-during_problem_solving/blob/e24deecb5489532075625f6937fffb14d959f0bd/chrome-extension/working%20image.jpeg)
 &nbsp;
 
->## ***🔐 API Key Setup***
+## 🛠️ Tech Stack
 
-Open the extension popup
+- JavaScript (Vanilla)
+- Chrome Extensions Manifest V3
+- OpenAI / Gemini / Ollama REST APIs
+- DOM parsing for platform detection
 
-Select AI provider
-
-Enter API key
-
-Keys are stored locally in your browser

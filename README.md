@@ -1,5 +1,5 @@
-# CodeNudge 🧠
-### AI-Powered Hints for Competitive Coding Practice
+
+# AI-Powered Hints for Competitive Coding Practice
 
 CodeNudge is a Chrome extension that helps you practice coding *ethically* — 
 by giving you smart, step-by-step hints instead of direct answers. It works 
@@ -20,16 +20,16 @@ thinking without breaking your problem-solving flow.
 
 ## ✨ Features
 
-- 🧠 **Step-by-step conceptual hints** — no full solutions, just the right nudge
-- 🐞 **Debug assistance** — helps identify logic errors and TLE causes
-- 🔍 **Context-aware** — reads the problem description and your editor code
-- 🔄 **Multi-platform** — works across all supported sites seamlessly
-- 🤖 **Multiple AI backends:**
-  - OpenAI
-  - Google Gemini
-  - Ollama (offline / local models)
-- 🔐 **Secure** — API keys stored locally, never sent anywhere else
-- 🧭 **Non-intrusive** — stays on the same tab, no switching required
+-  **Step-by-step conceptual hints** — no full solutions, just the right nudge
+-  **Debug assistance** — helps identify logic errors and TLE causes
+-  **Context-aware** — reads the problem description and your editor code
+-  **Multi-platform** — works across all supported sites seamlessly
+-  **Multiple AI backends:**
+   - OpenAI
+   - Google Gemini
+   - Ollama (offline / local models)
+-  **Secure** — API keys stored locally, never sent anywhere else
+-  **Non-intrusive** — stays on the same tab, no switching required
 
 ---
 
